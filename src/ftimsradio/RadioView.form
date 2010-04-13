@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="menuBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="menuBar" noResource="true"/>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="menuSettings">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="menuSettings.text"/>
+            <Property name="name" type="java.lang.String" value="menuSettings" noResource="true"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuStations">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="menuStations.text"/>
+            <Property name="name" type="java.lang.String" value="menuStations" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuStationNext">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="menuStationNext.text"/>
+                <Property name="name" type="java.lang.String" value="menuStationNext" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuStationPrev">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="menuStationPrev.text"/>
+                <Property name="name" type="java.lang.String" value="menuStationPrev" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuStationSave">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="menuStationSave.text"/>
+                <Property name="name" type="java.lang.String" value="menuStationSave" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuStationList">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="menuStationList.text"/>
+                <Property name="name" type="java.lang.String" value="menuStationList" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuDBase">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="menuDBase.text"/>
+            <Property name="name" type="java.lang.String" value="menuDBase" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuDBaseLoad">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="menuDBaseLoad.text"/>
+                <Property name="name" type="java.lang.String" value="menuDBaseLoad" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuDBaseSave">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="menuDBaseSave.text"/>
+                <Property name="name" type="java.lang.String" value="menuDBaseSave" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuAbout">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="menuAbout.text"/>
+            <Property name="name" type="java.lang.String" value="menuAbout" noResource="true"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="menuBar"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="slidersPanel" min="-2" max="-2" attributes="1"/>
+                  <Component id="funcButtonPanel" alignment="0" min="-2" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="stationsPanel" pref="283" max="32767" attributes="1"/>
+                  <Component id="radioScreen" alignment="0" min="-2" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="slidersPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="17" max="32767" attributes="0"/>
+                      <Component id="funcButtonPanel" min="-2" max="-2" attributes="1"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="radioScreen" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="stationsPanel" min="-2" max="-2" attributes="1"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="slidersPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="slidersPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="volumeLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="volumeSlider" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="frequencyLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="frequencySlider" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="volumeLabel" max="32767" attributes="1"/>
+                      <Component id="volumeSlider" alignment="0" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="frequencyLabel" max="32767" attributes="1"/>
+                      <Component id="frequencySlider" alignment="0" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="volumeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="volumeLabel.text"/>
+            <Property name="name" type="java.lang.String" value="volumeLabel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="frequencyLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="frequencyLabel.text"/>
+            <Property name="name" type="java.lang.String" value="frequencyLabel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSlider" name="volumeSlider">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="volumeSlider" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSlider" name="frequencySlider">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="frequencySlider" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="funcButtonPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="funcButtonPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="saveButton" max="32767" attributes="1"/>
+                      <Component id="powerButton" alignment="0" pref="81" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="nextButton" alignment="0" max="32767" attributes="1"/>
+                      <Component id="prevButton" alignment="0" pref="89" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="settingsButton" max="32767" attributes="1"/>
+                      <Component id="aboutButton" alignment="0" max="32767" attributes="1"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="powerButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nextButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="settingsButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="prevButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aboutButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="saveButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="saveButton.text"/>
+            <Property name="name" type="java.lang.String" value="saveButton" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="nextButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="nextButton.text"/>
+            <Property name="name" type="java.lang.String" value="nextButton" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="prevButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="prevButton.text"/>
+            <Property name="name" type="java.lang.String" value="prevButton" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="settingsButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="settingsButton.text"/>
+            <Property name="name" type="java.lang.String" value="settingsButton" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="aboutButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="aboutButton.text"/>
+            <Property name="name" type="java.lang.String" value="aboutButton" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="powerButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="powerButton.text"/>
+            <Property name="name" type="java.lang.String" value="powerButton" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="stationsPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="stationsPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="stationButton1" min="-2" pref="41" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="stationButton2" min="-2" pref="39" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="stationButton3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="stationButton4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="stationButton5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="stationButton6" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="stationButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stationButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stationButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stationButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stationButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stationButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="stationButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="stationButton1.text"/>
+            <Property name="name" type="java.lang.String" value="stationButton1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="stationButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="stationButton2.text"/>
+            <Property name="name" type="java.lang.String" value="stationButton2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="stationButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="stationButton3.text"/>
+            <Property name="name" type="java.lang.String" value="stationButton3" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="stationButton4">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="stationButton4.text"/>
+            <Property name="name" type="java.lang.String" value="stationButton4" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="stationButton5">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="stationButton5.text"/>
+            <Property name="name" type="java.lang.String" value="stationButton5" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="stationButton6">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="stationButton6.text"/>
+            <Property name="name" type="java.lang.String" value="stationButton6" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="radioScreen">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="radioScreen.background"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="radioScreen" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="screenText" pref="244" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="screenText" pref="94" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="screenText">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="screenText.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="screenText.foreground"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" resourceKey="screenText.text"/>
+            <Property name="name" type="java.lang.String" value="screenText" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
